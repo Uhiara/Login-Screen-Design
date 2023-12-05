@@ -136,11 +136,11 @@ private fun SocialMediaSection() {
 
 @Composable
 private fun LoginSection() {
-    LoginTextField(label = "Email", trailing = "")
+    LoginTextField(label = "Email", trailing = "", modifier = Modifier.fillMaxWidth())
 
     Spacer(modifier = Modifier.height(15.dp))
 
-    LoginTextField(label = "Password", trailing = "Forgot?")
+    LoginTextField(label = "Password", trailing = "Forgot?", modifier = Modifier.fillMaxWidth())
 
     Spacer(modifier = Modifier.height(15.dp))
 
